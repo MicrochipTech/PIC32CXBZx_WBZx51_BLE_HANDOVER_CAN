@@ -1,0 +1,13 @@
+connect '/BAUD=921600 /C=59 /CDATABIT=8 /CPARITY=none /CSTOPBIT=1 /CFLOWCTRL=none'
+setecho 0
+settitle 'WBZ451H RYN243200035 - Node 3 (0x045D)'
+sendln 'R'
+wait '>'
+sendln 'S 1,045D'
+wait '>'
+sendln 'S 2,000000006E959C'
+wait '>'
+sendln 'R'
+wait '>'
+sendln 'P'
+wait '>'

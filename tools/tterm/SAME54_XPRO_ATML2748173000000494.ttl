@@ -1,0 +1,3 @@
+connect '/BAUD=921600 /C=61 /CDATABIT=8 /CPARITY=none /CSTOPBIT=1 /CFLOWCTRL=none'
+setecho 0
+settitle 'SAME54 Xpro ATML2748173000000494 (Tool)'
